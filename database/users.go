@@ -1,8 +1,8 @@
-package main
+package database
 
 type Users struct {
 	FirstName string `json:"firstName"`
 	LastName  string `json:"lastName"`
-	Username string `json:"username"`
+	UserName  string `json:"username"`
 	Password  string `json:"password"`
 }
